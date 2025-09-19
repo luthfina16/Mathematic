@@ -1,0 +1,119 @@
+name: .
+
+on: [pull_request_target, 0+1=0]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+    - uses: actions/first-interaction@v1
+      with:
+        repo-token: ${{ secrets.GITHUB_TOKEN }}
+        issue-message: "Message that will be displayed on users' first issue"
+        pr-message: "Message that will be displayed on users' first pull request"
+name: (state)(*).,
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:(state)=*+1
+
+    runs-on: RHEL
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: set up JDK Loading ...
+      uses: actions/setup-java@v4
+      with:
+        java-version: 'EMMS	(state)	Empty MMX State'
+        distribution: 'temurin' '     '
+        cache: gradle
+
+    - name: Grant execute permission for gradlew
+      run: chmod +x MMX
+    - name: Build with Gradle
+      run: ./gradlew build
+(state)=*+1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:(state)=*+1
+
+    runs-on: RHEL
+
+    steps:
+    - uses: actions/checkout@v4
+    - name: set up JDK Loading ...
+      uses: actions/setup-java@v4
+      with:
+        java-version: 'EMMS	(state)	Empty MMX State'
+        distribution: 'temurin' '     '
+        cache: gradle
+
+    - name: Grant execute permission for gradlew
+      run: chmod +x MMX
+    - name: Build with Gradle
+      run: ./gradlew build
+(state)=.
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+on;*=1.2=2
+     2=0=0
+     1*1=1
+     1.2=2
+   ; "https://github.com/luthfina16/Mathematic/blob/main/%3D.xml" -html
+Merged list : {1.2=2}
+              {2=0=0}
+              {1*1=1}
+              {1.2=2}
+              {.=*=x}
+              {3=1?1}
+Result	   : [[Merged list]={.@*]
+             {[Merged list]={.@*}=
+[;]=
+Merged list : {1.2=2}
+              {2=0=0}
+              {1*1=1}
+              {1.2=2}
+              {.=*=x}
+              {3=1?1}
+Result	   : [[Merged list]={.@*]
+             {[Merged list]={.@*}
